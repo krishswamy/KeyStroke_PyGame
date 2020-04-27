@@ -1,4 +1,4 @@
-#initialize
+#initialize the program by importing the pygame library
 
 import pygame
 pygame.init()
@@ -20,7 +20,7 @@ win = pygame.display.set_mode((display["width"], display["height"]))
 myfont = pygame.font.SysFont('monospace', 20) 
 
 
-#setting up the while loop 
+#setting up the while loop which is central in all games
 while True:
   pygame.time.delay(50)
   win.fill((0, 0, 0))
